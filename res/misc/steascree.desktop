@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=SteaScree
+Exec=SteaScree
+Icon=steascree
+Categories=Utility;Qt;
+Comment=Cloud screenshot uploader for Steam
+Terminal=false

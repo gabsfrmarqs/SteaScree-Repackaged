@@ -1,6 +1,6 @@
 QT          +=  core gui network widgets
 
-TARGET      =   SteaScree
+TARGET      =   build/SteaScree
 
 TEMPLATE    =   app
 

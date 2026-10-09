@@ -1,3 +1,16 @@
+# SteaScree-AppImage
+
+Howdy! This is simple fork of SteaScree I made after having issues running the executable on my machine, so I decided to straight up make it compile onto an AppImage and hope it works forever.
+I really like SteaScree, but unfortunately the repo has been archived and the latest release is from 2017. Fortunately everything still works.
+
+# Build
+You need qt5-base to be installed
+```
+qmake-qt5
+make -j$(nproc)
+```
+
+# ORIGINAL README.md
 # This is no longer maintained. Who knows maybe I'll motivate myself enough and build the web-based SteaScree 2 at some point!
 
 ## SteaScree: Steam Cloud Screenshot Uploader
