@@ -1,7 +1,7 @@
-# SteaScree-AppImage
+# SteaScree-Repackaged
 
-Howdy! This is simple fork of SteaScree I made after having issues running the executable on my machine, so I decided to straight up make it compile onto an AppImage and hope it works forever.
-I really like SteaScree, but unfortunately the repo has been archived and the latest release is from 2017. Fortunately everything still works.
+Howdy! This is simple fork of SteaScree I made after having issues running the executable on my machine, so I decided to straight up make it compile onto an AppImage (and perhaps flatpak) and hope it works forever.
+I really like SteaScree, but unfortunately the repo has been archived and the latest release is from 2017. Fortunately everything still works, so I just changed build related files.
 
 # Build
 You need qt5-base to be installed
