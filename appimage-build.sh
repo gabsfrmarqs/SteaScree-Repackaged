@@ -34,6 +34,10 @@ chmod +x ./linuxdeploy-plugin-qt
   --plugin qt \
   --output appimage
 
+VERSION=$(awk -F'=' '/^VERSION/ {gsub(/[[:space:]]/, "", $2); print $2}' ../SteaScree.pro)
+STEASCREE_APPIMAGE="SteaScree-v${VERSION}.AppImage"
+mv ./SteaScree*.AppImage "$STEASCREE_APPIMAGE"
+
 FILESIZE=$(stat -c %s ./SteaScree*.AppImage)
 SHA256SUM=$(sha256sum ./SteaScree*.AppImage | awk '{ print $1 }')
 echo "${SHA256SUM};${FILESIZE}B"
